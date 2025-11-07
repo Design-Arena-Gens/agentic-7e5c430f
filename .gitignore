@@ -914,4 +914,8 @@ config/database.yml
 *.tar
 *.zip
 
+# --- Project manifest overrides ---
+!package.json
+!tsconfig.json
+!.eslintrc.json
 # ===== END =====
